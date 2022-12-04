@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T13:27:07.462Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ITlva50YSwLNaidcg0XS" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-04T13:57:29.739Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="hgbU4nmq1nt8Ju8Nrdti" version="20.6.0" type="github" pages="2">
   <diagram name="Архитектура (0)" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -187,6 +187,47 @@
         </mxCell>
         <mxCell id="F8R7WLM5kxrZGCUdwMtY-109" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;strokeWidth=1;fontSize=17;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="460" y="740" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="khSNBm_7Yy9utxcAtp68" name="Учет фин. деят.">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SddAuyUgho0OtJlQRmXc-1" value="Учет финансовой деятельности&lt;br&gt;ФинТабло" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="740" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VcAuIlmLGWRclyQLsfGA-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=17;fontColor=default;" edge="1" parent="1" source="VcAuIlmLGWRclyQLsfGA-5" target="SddAuyUgho0OtJlQRmXc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VcAuIlmLGWRclyQLsfGA-5" value="Кредиты и займы.&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Заполнение: ФинТабло&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=17;fontColor=default;fillColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="325" y="310" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VcAuIlmLGWRclyQLsfGA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=17;fontColor=default;" edge="1" parent="1" source="VcAuIlmLGWRclyQLsfGA-7" target="SddAuyUgho0OtJlQRmXc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VcAuIlmLGWRclyQLsfGA-7" value="Лизинг&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Заполнение: ФинТабло&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=17;fontColor=default;fillColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="310" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VcAuIlmLGWRclyQLsfGA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=17;fontColor=default;" edge="1" parent="1" source="VcAuIlmLGWRclyQLsfGA-11" target="SddAuyUgho0OtJlQRmXc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VcAuIlmLGWRclyQLsfGA-11" value="Аренда&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Заполнение: Финтабло&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=17;fontColor=default;fillColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VcAuIlmLGWRclyQLsfGA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="VcAuIlmLGWRclyQLsfGA-13" target="VcAuIlmLGWRclyQLsfGA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VcAuIlmLGWRclyQLsfGA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="VcAuIlmLGWRclyQLsfGA-13" target="VcAuIlmLGWRclyQLsfGA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VcAuIlmLGWRclyQLsfGA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="VcAuIlmLGWRclyQLsfGA-13" target="VcAuIlmLGWRclyQLsfGA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VcAuIlmLGWRclyQLsfGA-13" value="В Олимпе согласовали договор.&lt;br&gt;На Финансового менеджера выставилась задача&lt;br&gt;&quot;Внести информацию в ФинТабло&quot;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="226.25" y="60" width="407.5" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
