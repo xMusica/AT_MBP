@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T13:57:29.739Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="hgbU4nmq1nt8Ju8Nrdti" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-04T14:33:00.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="qrjp6C-qnOBUHcwntPSf" version="20.6.0" type="github" pages="3">
   <diagram name="Архитектура (0)" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -192,11 +192,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="khSNBm_7Yy9utxcAtp68" name="Учет фин. деят.">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SddAuyUgho0OtJlQRmXc-1" value="Учет финансовой деятельности&lt;br&gt;ФинТабло" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fontSize=13;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="SddAuyUgho0OtJlQRmXc-1" value="Учет финансовой деятельности&lt;br&gt;ФинТабло" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontSize=13;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="60" y="450" width="740" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VcAuIlmLGWRclyQLsfGA-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=17;fontColor=default;" edge="1" parent="1" source="VcAuIlmLGWRclyQLsfGA-5" target="SddAuyUgho0OtJlQRmXc-1">
@@ -228,6 +228,68 @@
         </mxCell>
         <mxCell id="VcAuIlmLGWRclyQLsfGA-13" value="В Олимпе согласовали договор.&lt;br&gt;На Финансового менеджера выставилась задача&lt;br&gt;&quot;Внести информацию в ФинТабло&quot;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
           <mxGeometry x="226.25" y="60" width="407.5" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_BlQUCHor2pORVD_qITM" name="Учет ДЗ\КЗ">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aoUB_bnDhs1yp4rb3Y5f-1" value="&lt;span style=&quot;&quot;&gt;Учет дебиторской и кредиторской задолженности&lt;/span&gt;&amp;nbsp;&lt;br&gt;ФинТабло" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontSize=13;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="570" width="740" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GF1mlM8IZJTRb6SNdB93-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aoUB_bnDhs1yp4rb3Y5f-3" target="GF1mlM8IZJTRb6SNdB93-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aoUB_bnDhs1yp4rb3Y5f-3" value="Заявки снабжения&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Заполнение: Олимп&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="310" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GF1mlM8IZJTRb6SNdB93-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aoUB_bnDhs1yp4rb3Y5f-7" target="GF1mlM8IZJTRb6SNdB93-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aoUB_bnDhs1yp4rb3Y5f-7" value="Заявки на оплату (Услуги)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Заполнение: Олимп&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="310" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GF1mlM8IZJTRb6SNdB93-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="aoUB_bnDhs1yp4rb3Y5f-11" target="aoUB_bnDhs1yp4rb3Y5f-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="frpkA9hiRKUm1jNlpirp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="aoUB_bnDhs1yp4rb3Y5f-11" target="aoUB_bnDhs1yp4rb3Y5f-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aoUB_bnDhs1yp4rb3Y5f-11" value="Информация формируется автоматически в Олимп,&lt;br&gt;на основании счетов." style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="22.5" y="50" width="407.5" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="GF1mlM8IZJTRb6SNdB93-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="GF1mlM8IZJTRb6SNdB93-6" target="aoUB_bnDhs1yp4rb3Y5f-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="520" />
+              <mxPoint x="450" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16Sehe_8RrqC2Yv8cuWE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;dashed=1;" edge="1" parent="1" source="GF1mlM8IZJTRb6SNdB93-6" target="frpkA9hiRKUm1jNlpirp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GF1mlM8IZJTRb6SNdB93-6" value="Формирование счета&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Заполнение: Олимп&lt;br style=&quot;font-size: 14px;&quot;&gt;Интеграция через API&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="frpkA9hiRKUm1jNlpirp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="frpkA9hiRKUm1jNlpirp-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="520" />
+              <mxPoint x="450" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frpkA9hiRKUm1jNlpirp-2" value="Гарантийные обязательства и отсрочки платежей&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Заполнение: Олимп&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="520" y="420" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
